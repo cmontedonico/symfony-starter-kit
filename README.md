@@ -21,7 +21,7 @@ INSTALL
 
 1. Clone the project
 
- $ git clone git@taquitosoft.com:cmontedonico/symfony2.git
+ $ git clone git@github.com:cmontedonico/symfony-starter-kit.git 
 
 2. Install
 
