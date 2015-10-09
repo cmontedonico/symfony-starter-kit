@@ -14,6 +14,8 @@ vendor/
 app/cache/
 app/logs/
 
+# The database file #
+app/config/parameters.yml
 
 # Packages #
 ############

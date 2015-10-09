@@ -12,7 +12,7 @@ Includes:
 
 
 NEEDS
-1. PHP 5.5+
+1. PHP 5.5+ 
 2. MySQL 2.+
 
 
@@ -23,9 +23,14 @@ INSTALL
 
  $ git clone git@github.com:cmontedonico/symfony-starter-kit.git 
 
-2. Install
+2. Install the Vendor with Symfony 2.7
+
+    $ composer install
+
+3. Configure the Database
 
  $ cd symfony2
+ $ cp app/config/parameters.yml.dist parameters.yml
  $ vi app/config/parameters.yml // change the Database information
  $ php app/check.php
 
@@ -48,3 +53,21 @@ INSTALL
     Open your browser and go to 127.0.0.1/app_dev.php
 
 
+************************************
+Included and configured
+"require": {
+        "php": ">=5.3.9",
+        "symfony/symfony": "2.7.*",
+        "doctrine/orm": "~2.2,>=2.2.3,<2.5",
+        "doctrine/dbal": "<2.5",
+        "doctrine/doctrine-bundle": "~1.4",
+        "symfony/assetic-bundle": "~2.3",
+        "symfony/swiftmailer-bundle": "~2.3",
+        "symfony/monolog-bundle": "~2.4",
+        "sensio/distribution-bundle": "~4.0",
+        "sensio/framework-extra-bundle": "~3.0,>=3.0.2",
+        "incenteev/composer-parameter-handler": "~2.0",
+        "friendsofsymfony/user-bundle" : "~2.0@dev",
+        "braincrafted/bootstrap-bundle": "~2.0",
+        "twbs/bootstrap": "3.0.*",
+        "jquery/jquery":  "1.11.*"
