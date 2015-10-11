@@ -55,6 +55,15 @@ INSTALL
         Open your browser and go to 127.0.0.1/app_dev.php
 
 
+5. Possible Errors
+      PARSER ERROR WITH CLASS.PHP
+        $rm -rf app/cache/*
+        $rm -rf app/logs/*
+
+      Library errors
+        install php extensions: ctype and tokenizer
+
+
 ************************************
 Included and configured
     "require": {

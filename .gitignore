@@ -7,8 +7,9 @@
 *.o
 *.so
 
-# Vendors #
+# Vendors and .idea #
 vendor/
+.idea/
 
 # LOGS and Cache #
 app/cache/
