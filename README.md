@@ -36,7 +36,7 @@ $ composer install
     $ cp app/config/parameters.yml.dist parameters.yml
     $ vi app/config/parameters.yml // change the Database information
     $ php app/check.php
-```
+
 
  This must be something like this.
   *****************************************
